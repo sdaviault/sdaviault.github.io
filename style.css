@@ -1,0 +1,172 @@
+body {
+padding: 1vw;
+margin : 5vw; /*convertir en mesure vw si tu préfères Sophie*/
+/*margin : 15vw 10vw (haut droite bas gauche) */
+}
+
+/* MENU */
+
+.menu { /* C'est cette partie qui met les colonnes*/
+font-family: "Bellefair", serif;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+top: 0px; /* colle le bandeau en haut */
+position: fixed; /* menu fixe */
+background-color: white; /* couleur fond menu fixe */
+/*overflow: hidden;  je ne sais pas */
+width: 100%;  /*taille bandeau mais ça décale le texte */
+} 
+
+.logo {
+color: black; /* couleur noire */
+display: block;
+font-size: 5rem;
+ /* changer éventuellement la police */
+margin-right: 1.5rem;
+margin-top: 1.5rem;
+text-decoration: none;}
+
+.nav {
+margin-top: 1.5rem;
+margin-right: 10vw;
+/* Pour aligner en haut avec logo*/} 
+
+.nav a {
+color:black; /* couleur onglets MENU */
+display: block;
+text-decoration:none; /* enlève soulignement */
+/*margin-right: 75px;*/
+padding:0.5rem;  /* ajouter espacement entre les éléments */
+font-size: 1.15rem;
+/*text-align: center; pas de changement apparent */
+/*float: left;  pas de changement apparent */
+}
+
+.nav a:hover { /* surligner l'onglet sur lequel on est */
+background-color: #958976;
+color: black;}
+
+.nav-list {
+/*align-items: right; je ne vois pas à quoi ça sert*/
+display: flex; /* enleve les puces */
+flex-wrap:wrap}  /*ramene les onglets sur une ligne */
+
+nav ol, nav ul {list-style-type: none;/* enleve les puces*/
+margin: 0; /* pas de marge quand ça passe en dessous*/
+padding:0;}
+
+
+/* MAIN (entre le header et le footer)*/
+
+main {
+margin-top : 175px; /*espace entre le main et le footer*/
+font-family: 'Noto Sans', sans-serif;
+color: #1d2326; /*je ne vois pas la différence avec black*/
+
+
+/* font-size: 16; /* ajout D */
+/* line-height: 1.5; /* ajout D */
+/* height: 100%; /* ajout D */
+/* min-height:100%; /* ajout D */
+/* max-width: 1140px; /* ajout D */
+}
+
+.message-accueil { /* paramétrage particulier pour le sous-titre de la page d'accueil*/
+color: #708090;
+font-size: 26px;
+font-weight: bold;
+text-align: center;
+}
+
+h1 {
+    color: #958976;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #958976;
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+/*.audio {
+    display: flex; 
+    flex-direction: row; 
+    /*flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-bottom: 5vw; 
+    text-align: left;
+} */ /* Je le laisse ici au cas où, mais ça ne donne rien de pertinent ou d'esthétique */
+
+.citation {
+    margin-left: 25vw;
+    margin-bottom: 5vw;
+    text-align: right;
+}
+
+a {
+color:black; 
+/*text-decoration:none;  enlève soulignement */
+}
+
+/* IMAGES */
+
+.galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.image-page {
+margin-top : 2vw;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne. Sophie : c'était entre autres à cause de ça ! */
+    margin:0;
+    padding: 1vw;
+    width: 21vw;
+}
+
+.images4 {
+    margin:0;
+    padding: 0,5vw;
+    width: 14vw;
+}
+
+ .caption3 { /* Figcaption page Inspiration, 3 colonnes */
+    text-align: center;
+    font-size: 1rem;
+    color: #708090;
+}
+
+.caption {
+    font-style: italic;
+    text-align: right;
+    font-size: 1rem;
+    color: #708090;
+}
+
+/* FOOTER */
+
+hr {
+    margin-top : 100px;
+}
+footer {
+font-family: "Bellefair", serif;
+/*margin-top : 5vw;*/
+margin-bottom: -5vw;
+font-size: smaller;
+color: black
+/*overflow: hidden;  je ne sais pas */
+width: 100%;  /*taille bandeau mais ça décale le texte */
+}   
+
