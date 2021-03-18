@@ -130,7 +130,7 @@ margin-top : 2vw;
     width: 100%;
 }
 
-.images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne. Sophie : c'était entre autres à cause de ça ! */
+.images3 { 
     margin:0;
     padding: 1vw;
     width: 21vw;
