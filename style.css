@@ -86,14 +86,6 @@ h2 {
     font-weight: lighter;
 }
 
-/*.audio {
-    display: flex; 
-    flex-direction: row; 
-    /*flex-wrap: wrap; 
-    justify-content: space-between;
-    margin-bottom: 5vw; 
-    text-align: left;
-} */ /* Je le laisse ici au cas où, mais ça ne donne rien de pertinent ou d'esthétique */
 
 .citation {
     margin-left: 25vw;
@@ -133,6 +125,13 @@ a {
     margin:0;
     padding: 0,5vw;
     width: 14vw;
+}
+
+.image-artiste {
+    float: right;
+    right: 0px;
+    width: 25vw;
+    padding-left: 4vw;
 }
 
  .caption3 { /* Figcaption page Inspiration, 3 colonnes */
