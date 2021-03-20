@@ -127,6 +127,13 @@ a {
     width: 14vw;
 }
 
+.image-artiste {
+    float: right;
+    right: 0px;
+    width: 25vw;
+    padding-left: 4vw;
+}
+
  .caption3 { /* Figcaption page Inspiration, 3 colonnes */
     text-align: center;
     font-size: 1rem;
