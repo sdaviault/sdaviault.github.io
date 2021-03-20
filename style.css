@@ -1,83 +1,73 @@
 body {
-padding: 1vw;
-margin : 5vw; /*convertir en mesure vw si tu préfères Sophie*/
-/*margin : 15vw 10vw (haut droite bas gauche) */
+    padding: 1vw;
+    margin : 5vw;
 }
 
 /* MENU */
 
 .menu { /* C'est cette partie qui met les colonnes*/
-font-family: "Bellefair", serif;
-align-items: center;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-top: 0px; /* colle le bandeau en haut */
-position: fixed; /* menu fixe */
-background-color: white; /* couleur fond menu fixe */
-/*overflow: hidden;  je ne sais pas */
-width: 100%;  /*taille bandeau mais ça décale le texte */
+    font-family: "Bellefair", serif;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0px; /* colle le bandeau en haut */
+    position: fixed; /* menu fixe */
+    background-color: white; /* couleur fond menu fixe */
+    width: 100%;  /*taille bandeau mais ça décale le texte */
 } 
 
 .logo {
-color: black; /* couleur noire */
-display: block;
-font-size: 5rem;
- /* changer éventuellement la police */
-margin-right: 1.5rem;
-margin-top: 1.5rem;
-text-decoration: none;}
-
+    color: black;
+    display: block;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
 .nav {
-margin-top: 1.5rem;
-margin-right: 10vw;
-/* Pour aligner en haut avec logo*/} 
+    margin-top: 1.5rem; /* Pour aligner en haut avec logo*/
+    margin-right: 10vw;
+} 
 
 .nav a {
-color:black; /* couleur onglets MENU */
-display: block;
-text-decoration:none; /* enlève soulignement */
-/*margin-right: 75px;*/
-padding:0.5rem;  /* ajouter espacement entre les éléments */
-font-size: 1.15rem;
-/*text-align: center; pas de changement apparent */
-/*float: left;  pas de changement apparent */
+    color:black; /* couleur onglets MENU */
+    display: block;
+    text-decoration:none; /* enlève soulignement */
+    padding:0.5rem;  /* ajouter espacement entre les éléments */
+    font-size: 1.15rem;
 }
 
 .nav a:hover { /* surligner l'onglet sur lequel on est */
-background-color: #958976;
-color: black;}
+    background-color: #958976;
+    color: black;
+}
 
 .nav-list {
-/*align-items: right; je ne vois pas à quoi ça sert*/
-display: flex; /* enleve les puces */
-flex-wrap:wrap}  /*ramene les onglets sur une ligne */
+    display: flex; /* enleve les puces */
+    flex-wrap:wrap
+}  /*ramene les onglets sur une ligne */
 
-nav ol, nav ul {list-style-type: none;/* enleve les puces*/
-margin: 0; /* pas de marge quand ça passe en dessous*/
-padding:0;}
+nav ol, nav ul {
+    list-style-type: none;/* enleve les puces*/
+    margin: 0; /* pas de marge quand ça passe en dessous*/
+    padding:0;
+}
 
 
 /* MAIN (entre le header et le footer)*/
 
 main {
-margin-top : 175px; /*espace entre le main et le footer*/
-font-family: 'Noto Sans', sans-serif;
-color: #1d2326; /*je ne vois pas la différence avec black*/
-
-
-/* font-size: 16; /* ajout D */
-/* line-height: 1.5; /* ajout D */
-/* height: 100%; /* ajout D */
-/* min-height:100%; /* ajout D */
-/* max-width: 1140px; /* ajout D */
+    margin-top : 175px; /*espace entre le main et le footer*/
+    font-family: 'Noto Sans', sans-serif;
+    color: #1d2326;
 }
 
 .message-accueil { /* paramétrage particulier pour le sous-titre de la page d'accueil*/
-color: #708090;
-font-size: 26px;
-font-weight: bold;
-text-align: center;
+    color: #708090;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
 }
 
 h1 {
@@ -108,8 +98,7 @@ h2 {
 }
 
 a {
-color:black; 
-/*text-decoration:none;  enlève soulignement */
+    color:black; 
 }
 
 /* IMAGES */
@@ -123,7 +112,7 @@ color:black;
 }
 
 .image-page {
-margin-top : 2vw;
+    margin-top : 2vw;
 }
 
 .image1 {
@@ -160,13 +149,12 @@ margin-top : 2vw;
 hr {
     margin-top : 100px;
 }
+
 footer {
-font-family: "Bellefair", serif;
-/*margin-top : 5vw;*/
-margin-bottom: -5vw;
-font-size: smaller;
-color: black
-/*overflow: hidden;  je ne sais pas */
-width: 100%;  /*taille bandeau mais ça décale le texte */
+    font-family: "Bellefair", serif;
+    margin-bottom: -5vw;
+    font-size: smaller;
+    color: black;
+    width: 100%;  /*taille bandeau mais ça décale le texte */
 }   
 
