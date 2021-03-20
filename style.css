@@ -160,6 +160,7 @@ footer {
     margin-bottom: -5vw;
     font-size: smaller;
     color: black;
+    position: bottom;
     width: 100%;  /*taille bandeau mais ça décale le texte */
 }   
 
